@@ -41,7 +41,7 @@ body{
 }
 
 #ptw-icon{
-  margin-top: 50px;
+  margin-top: 30px;
   width: 200px;
   height: 200px;
 }
@@ -66,9 +66,9 @@ h1{
 
 #menu-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 80px;
-  padding-left: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  padding-left: 0px;
   padding-right: 0px;
 }
 
@@ -97,8 +97,8 @@ iframe{
 
 .menu-tabs{
   transition: transform 0.25s linear;
-  width: 125px;
-  height: 125px;
+  width: 90px;
+  height: 90px;
 }
 
 .menu-tabs:hover{
