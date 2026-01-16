@@ -1,0 +1,51 @@
+body {
+  background-image: url("images/background/IMG_2652.png");
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  margin: 0;
+  background-attachment: fixed;
+  text-align: center;
+  overflow-x: hidden;
+}
+#startGameMenu{
+  width: 350px;
+  height: 250px;
+  position: fixed;
+  left: 20px;
+  top: 0px;
+  text-align: center;
+}
+#startGameMenu.open{
+  display: none;
+}
+
+.icons{
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: 0.25s linear;
+}
+.icons:hover{
+  transform: scale(1.1);
+}
+
+
+#heading{
+  margin-top: 40px;
+  width: 125px;
+  height: 125px;
+}
+
+#h1{
+  color: orange;
+}
+
+#develop{
+  display: none;
+}
+#develop.open{
+  display: inline-block;
+}
