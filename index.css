@@ -58,10 +58,11 @@ h1{
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 715px;
+  height: 400px;
   transition: opacity 0.25s linear, right 0.25s linear;
   text-align: center;
   z-index: 3;
+  border-radius: 50px 0px 0px 50px;
 }
 
 #menu-container{
@@ -146,7 +147,7 @@ iframe{
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 600px;
+  height: 400px;
   transition: opacity 0.25s linear, left 0.25s linear;
   text-align: center;
   z-index: 3;
