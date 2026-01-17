@@ -68,7 +68,7 @@ h1{
 #menu-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 100px;
+  margin-top: 110px;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -127,7 +127,7 @@ iframe{
 #socialMediaBtn{
   position: fixed;
   left: 0;
-  top: 0;
+  top: 10;
   animation: pulse1 1s infinite;
   cursor: pointer;
   z-index: 4;
@@ -166,7 +166,7 @@ iframe{
 }
 
 #sContainer{
-  margin-top: 100px;
+  margin-top: 110px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-right: 10px;
