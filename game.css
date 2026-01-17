@@ -4,19 +4,12 @@ body {
   background-size: cover;
   background-color: black;
   background-repeat: no-repeat;
-  min-height: fit-content;
   margin: 0;
   background-attachment: fixed;
   text-align: center;
   overflow-x: hidden;
-  text-align: center;
 }
 #startGameMenu{
-  width: 350px;
-  height: 250px;
-  position: fixed;
-  left: 20px;
-  top: 0px;
   text-align: center;
 }
 #startGameMenu.open{
@@ -48,5 +41,5 @@ body {
   display: none;
 }
 #develop.open{
-  display: inline-block;
+  display: block;
 }
