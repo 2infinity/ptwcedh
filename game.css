@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   text-align: center;
   overflow-x: hidden;
+  text-align: center;
 }
 #startGameMenu{
   width: 350px;
